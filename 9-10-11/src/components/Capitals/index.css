@@ -1,0 +1,105 @@
+.bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm422-073.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=ef48caa87980815f77343e682d6324ee");
+    height: 100%;
+    border: 1px solid #cbced2;
+    border-radius: 25px;
+    margin-top: 8vh;
+    width: 50%;
+    max-width: 1140px;
+    margin-left: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgb(54, 53, 53) 5px 5px 5px 5px;
+  }
+  
+  .app-container {
+    background-color:white;
+    background-size: cover;
+    border-radius: 15px;
+    border-width: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    width: 94%;
+    text-align: center;
+  }
+  
+  @media screen and (min-width:768px){
+      .app-container{
+          width: 50%;
+          padding: 48px;
+          margin-top: 5VH;
+          margin-bottom: 5vh;
+          border-radius: 25px;
+          border: dotted rgb(235, 152, 179) 5px;
+      }
+  }
+  
+  .title {
+    color: #323f4b;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .title {
+      font-size: 42px;
+    }
+  }
+  
+  .select-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .search-capital {
+    color: #0d35b6;
+    border: 1px solid #cbd2d9;
+    padding-left: 12px;
+    font-size: 18px;
+    padding: 6px;
+    padding-right: 10px;
+    font-family: 'Roboto';
+    margin-right: 10px;
+    
+  }
+  
+  @media screen and (min-width: 768px) {
+    .search-capital {
+      font-size: 22px;
+      border-radius: 15px;
+    }
+  }
+  
+  .option {
+    color: #323f4b;
+    font-family: 'Roboto';
+  }
+  
+  .description {
+    color: #1e293b;
+    font-family: 'Roboto';
+    font-weight: 430;
+    font-size: 9px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .description {
+      font-size: 20px;
+    }
+  }
+  
+  .country {
+    color: #064886;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+  }
+  

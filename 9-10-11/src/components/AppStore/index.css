@@ -1,0 +1,90 @@
+/* Write your CSS here */
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://img.freepik.com/free-vector/dark-hexagonal-background-with-gradient-color_79603-1409.jpg");
+    height: 100%;
+    border: 1px solid #cbced2;
+    border-radius: 25px;
+    margin-top: 2vh;
+    width: 60%;
+    max-width: 1140px;
+    margin-left: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgb(54, 53, 53) 5px 5px 5px 5px;
+
+
+  }
+  
+  .app-store {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    font-family: 'Bree Serif';
+  }
+  .heading {
+    color: #faf7f8;
+    font-size: 36px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .heading {
+      font-size: 52px;
+      margin-top: 50px;
+    }
+  }
+  .search-input-container {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    background-color: transparent;
+    width: 100%;
+    max-width: 250px;
+    border-radius: 4px;
+    border: 1px solid #7b8794;
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 16px;
+  }
+  .search-input {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    flex-grow: 1;
+    
+  }
+  
+  .search-icon {
+    width: 24px;
+    height: 24px;
+  }
+  .tabs-list {
+    display: flex;
+    align-items: flex-end;
+    padding-left: 0px;
+    margin-top: 32px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .tabs-list {
+      margin-top: 48px;
+    }
+  }
+  
+  .apps-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    padding-left: 0px;
+  }
